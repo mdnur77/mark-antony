@@ -1,0 +1,120 @@
+/*------------------Bottom Shape Divider-------------------*/
+.custom-shape-divider-bottom-1618159713 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1618159713 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 212px;
+    -webkit-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1618159713 .shape-fill {
+    fill: #fff;
+}
+
+/** For tablet devices **/
+@media (min-width: 768px) and (max-width: 1023px) {
+    .custom-shape-divider-bottom-1618159713 svg {
+        width: calc(100% + 1.3px);
+        height: 138px;
+    }
+}
+
+/** For mobile devices **/
+@media (max-width: 767px) {
+    .custom-shape-divider-bottom-1618159713 svg {
+        width: calc(100% + 1.3px);
+        height: 93px;
+    }
+}
+
+/*-------------------------Bottom Shape Divider Skill--------------------------*/
+.custom-shape-divider-bottom-1618159713-skill {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1618159713-skill svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 212px;
+    -webkit-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1618159713-skill .shape-fill-skill {
+    fill: #FAFAFF;
+}
+
+/** For tablet devices **/
+@media (min-width: 768px) and (max-width: 1023px) {
+    .custom-shape-divider-bottom-1618159713-skill svg {
+        width: calc(100% + 1.3px);
+        height: 138px;
+    }
+}
+
+/** For mobile devices **/
+@media (max-width: 767px) {
+    .custom-shape-divider-bottom-1618159713-skill svg {
+        width: calc(100% + 1.3px);
+        height: 93px;
+    }
+}
+
+/*------------------Top Shape Divider-------------------*/
+.custom-shape-divider-top-1618159665 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1618159665 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 212px;
+    -webkit-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-top-1618159665 .shape-fill {
+    fill: #fff;
+}
+
+/** For tablet devices **/
+@media (min-width: 768px) and (max-width: 1023px) {
+    .custom-shape-divider-top-1618159665 svg {
+        width: calc(100% + 1.3px);
+        height: 138px;
+    }
+}
+
+/** For mobile devices **/
+@media (max-width: 767px) {
+    .custom-shape-divider-top-1618159665 svg {
+        width: calc(100% + 1.3px);
+        height: 93px;
+    }
+}

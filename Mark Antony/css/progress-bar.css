@@ -1,0 +1,55 @@
+/*Required CSS*/
+svg.radial-progress {
+    height: auto;
+    max-width: 170px;
+    padding: 0;
+    -webkit-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    width: 100%;
+    border-radius: 50%;
+}
+
+svg.radial-progress circle {
+    fill: transparent;
+    stroke: #fff;
+    stroke: red;
+}
+
+svg.radial-progress circle.bar-static {
+    stroke: #F7F7F7 !important;
+    stroke-width: 5px;
+}
+
+svg.radial-progress circle.bar--animated {
+    stroke-dasharray: 219.91148575129;
+    stroke-dashoffset: 219.91148575129;
+    stroke-width: 5px;
+    stroke-linecap: round;
+}
+
+svg.radial-progress circle.bar--animated.count-1 {
+    stroke: #F6357E !important;
+}
+
+svg.radial-progress circle.bar--animated.count-2 {
+    stroke: #B122E5 !important;
+}
+
+svg.radial-progress circle.bar--animated.count-3 {
+    stroke: #1270E3 !important;
+}
+
+svg.radial-progress circle.bar--animated.count-4 {
+    stroke: #2CBFC7 !important;
+}
+
+svg.radial-progress circle.bar--animated.count-5 {
+    stroke: #FF8359 !important;
+}
+
+svg.radial-progress text {
+    fill: #5D5D5D;
+    font-size: 20px;
+    font-family: 'Nexa';
+    text-anchor: middle;
+}
